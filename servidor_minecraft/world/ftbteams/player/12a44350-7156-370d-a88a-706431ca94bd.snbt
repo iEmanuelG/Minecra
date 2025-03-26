@@ -1,0 +1,17 @@
+{
+	id: "12a44350-7156-370d-a88a-706431ca94bd"
+	type: "player"
+	player_name: "Tatueje"
+	ranks: {
+		12a44350-7156-370d-a88a-706431ca94bd: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Tatueje"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59C5FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

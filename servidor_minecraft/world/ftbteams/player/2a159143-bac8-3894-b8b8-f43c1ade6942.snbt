@@ -1,0 +1,17 @@
+{
+	id: "2a159143-bac8-3894-b8b8-f43c1ade6942"
+	type: "player"
+	player_name: "iKreus"
+	ranks: {
+		2a159143-bac8-3894-b8b8-f43c1ade6942: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "iKreus"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF598C"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

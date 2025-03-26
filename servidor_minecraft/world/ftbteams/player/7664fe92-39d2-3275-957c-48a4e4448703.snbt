@@ -1,0 +1,17 @@
+{
+	id: "7664fe92-39d2-3275-957c-48a4e4448703"
+	type: "player"
+	player_name: "Hydragyros"
+	ranks: {
+		7664fe92-39d2-3275-957c-48a4e4448703: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Hydragyros"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFC759"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
