@@ -1,0 +1,378 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "5CDF4F4640D103CA"
+	id: "53102BE4D9574E67"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4AE8C38D77182CE0"
+			rewards: [{
+				id: "3912CD219C8D0988"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3159D6A097B00501"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "54836753F0889C60"
+			rewards: [{
+				id: "0EBE125B460118D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2B2B6FECFB197CF8"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "5BB0BA0CCA018946"
+			rewards: [{
+				id: "59EC492AEE40D033"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "62E9DC8169BFFEAA"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "593F7D6A7AD4E1F4"
+			rewards: [{
+				id: "105446C119EFAF94"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0FC435919FCA1F8C"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "0A0D07B61BAE9E33"
+			rewards: [{
+				id: "03B13EA07B2CB68A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2256F1A72CB93AF9"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "0EA6CCB62FC48571"
+			rewards: [{
+				id: "1FE17BFA09D791AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2679B5908F5A9B9B"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			id: "7625E8FA111584D7"
+			rewards: [{
+				id: "6DBCA9CD376E16EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "586B9302233436FE"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			id: "46A7F15675F8420A"
+			rewards: [{
+				id: "7EFCF28FFC9174AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3F581E3AEFB48654"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "190CDC588774E4AB"
+			rewards: [{
+				id: "393455D72DE0468C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "790EC17DABC6D605"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "0C80FD60E253B780"
+			rewards: [{
+				id: "20B1AC49531A87F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2B0A5A8B782C5D0B"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "7B66E50A32B608FA"
+			rewards: [{
+				id: "7200960C894EEAB4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2FBCE40598A6EA8B"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "3F2B55EFBFA7555A"
+			rewards: [{
+				id: "28505B3B1EDB30F2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "16C00018FD64561A"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "6DE05783100AC525"
+			rewards: [{
+				id: "519A35581481EC4D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3FDEF27051FFEAEB"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			id: "7B302EB8A57D8712"
+			rewards: [{
+				id: "037DC3AEB35E2ADA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "64191FDAD667CB50"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "354F5771B38D1A37"
+			rewards: [{
+				id: "743F37EE0F37AB44"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "767711A086E75C56"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "6E3652AB9CAA9A57"
+			rewards: [{
+				id: "7DFED858C14906E8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1552CAE892D3DF3A"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["Para encontrar la estructura, debes tomar uno de los ojos y dar click derecho, este volara hacia la dirección de la stronghold por unos segundos y luego caerá al suelo."]
+			icon: "minecraft:stone_bricks"
+			id: "1E92D345637433AA"
+			rewards: [{
+				id: "7E0C490AB5428020"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: "minecraft:ender_eye"
+				id: "557443733356CC20"
+				structure: "integrated_stronghold:stronghold"
+				title: "Stronghold"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			description: ["Para lograr llegar a la dimensión del end es necesario conseguir al menos 12 de los 16 ojos de ender esparcidos por el mundo. Cuando se tengan, deben colocarse en el portal que se encuentra en la stronghold y viajar al end para derrotar a la dragona."]
+			id: "1FA7B68E7CCCF516"
+			tasks: [{
+				id: "239CEA83FEC5BDA0"
+				title: "End Remastered"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+	]
+	title: "End"
+}

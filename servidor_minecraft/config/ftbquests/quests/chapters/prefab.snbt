@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "prefab"
+	group: "0CD68BA1C2CB88C2"
+	id: "32EA1A340FF0AA88"
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		description: ["Prefab es un mod que permite crear estructuras y construcciones de manera automática, da click derecho con los planos y veras una vista previa de tu construción, y luego a construir."]
+		id: "5BDF8EEDD543922F"
+		shape: "rsquare"
+		tasks: [{
+			id: "19EDF4A4E12C594B"
+			item: "prefab:item_house"
+			type: "item"
+		}]
+		title: "Prefab"
+		x: -0.5d
+		y: -1.0d
+	}]
+	title: "Prefab"
+}

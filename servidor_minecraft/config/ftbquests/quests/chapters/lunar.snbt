@@ -1,0 +1,121 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lunar"
+	group: "0CD68BA1C2CB88C2"
+	id: "36B9CA4791F6273B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["La Luna de Mal presagio llena el aire de tensión, otorgándote el ominoso efecto de Mal presagio durante toda la noche."]
+			icon: "minecraft:purple_concrete_powder"
+			id: "3BAB5318D94D802B"
+			tasks: [{
+				id: "3A5FE8D417C68AE7"
+				title: "Luna de mal presagio"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Contempla el cielo nocturno para presenciar la asombrosa expansión de la luna. Pero ten cuidado, porque la Luna Grande altera la gravedad y pone a prueba tu capacidad de adaptación en un mundo de gravedad reducida."]
+			icon: "quark:blaze_lantern"
+			id: "79E7563620E4E446"
+			tasks: [{
+				id: "0F71E1D6183ACB4A"
+				title: "Luna grande"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Cuando salga la Luna de Sangre, prepárate para feroces batallas. Los mobs que surgen durante este evento lunar tienen una ventaja extra, lo que los convierte en adversarios formidables incluso para los aventureros más avezados."]
+			icon: "minecraft:red_concrete_powder"
+			id: "2452E5572244F73B"
+			tasks: [{
+				id: "0E5C5FC9212855DF"
+				title: "Luna de sangre"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Experimenta una superposición de dimensiones sin precedentes cuando los mobs del nether atraviesan el mundo durante la Luna Carmesí. Los límites entre los reinos se difuminan, añadiendo una emocionante capa de imprevisibilidad a la noche."]
+			icon: "minecraft:stripped_crimson_hyphae"
+			id: "6718270742831D7A"
+			tasks: [{
+				id: "450F23F6F2EF1C3D"
+				title: "Luna carmesí"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			description: ["Disfruta de la gloria de la Luna del Héroe, donde el valor es recompensado. A lo largo de la noche, se te otorgará el prestigioso efecto Héroe de la aldea, que mejorará tus interacciones con los aldeanos agradecidos."]
+			icon: "minecraft:lime_concrete"
+			id: "52B14C27EBC55F9B"
+			tasks: [{
+				id: "6A31C09DFBE51872"
+				title: "Luna del héroe"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Da rienda suelta al minero que llevas dentro durante la Luna del Minero. El don de la Prisa acompaña a este evento, permitiéndote excavar recursos con una velocidad y eficiencia inigualables."]
+			icon: "minecraft:light_gray_concrete"
+			id: "369CB6948C8733D6"
+			tasks: [{
+				id: "3A4137653A429678"
+				title: "Luna de minero"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Siente cómo se intensifica la atracción gravitatoria durante la Luna diminuta. Navega por un mundo donde la gravedad es más fuerte, desafiándote a adaptarte y navegar por el terreno como nunca antes."]
+			icon: "biomesoplenty:fir_button"
+			id: "54892C8B3548AA36"
+			tasks: [{
+				id: "6519FB265C6D3DAA"
+				title: "Luna diminuta"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Abraza la serenidad bajo la Luna Blanca. Aventúrate con confianza ya que el aura tranquila de la noche fomenta la exploración y el descubrimiento."]
+			hide_text_until_complete: false
+			icon: "minecraft:white_concrete"
+			id: "3279F6B422A53768"
+			tasks: [{
+				id: "4B376C35DCB87A8C"
+				title: "Luna blanca"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			description: ["Contempla el raro evento de la Luna Eclipse, que envuelve el mundo en oscuridad. Disfruta del efecto de oscuridad que desafía tus sentidos y tu estrategia, ofreciendo un giro único y envolvente al ciclo lunar."]
+			icon: "minecraft:black_concrete"
+			id: "3C173A35ACCDF604"
+			tasks: [{
+				id: "3F80A3824901FAFD"
+				title: "Luna de eclipse"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	title: "Lunar"
+}

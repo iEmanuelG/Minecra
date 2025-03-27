@@ -1,0 +1,258 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "herramientas_tiles"
+	group: "5CDF4F4640D103CA"
+	id: "4DAA14F39614D2D1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["La mochila es un objeto casi indispensable cuando se juega Minecraft con mods, a la hora de explorar se encuentran gran variedad y cantidades de objetos que no caben en un inventario común. Estas mochilas tienes la particularidad de que pueden ser mejoradas para añadirles más slots y para hacer funciones únicas."]
+			id: "4A3197E3C15709E7"
+			rewards: [
+				{
+					count: 4
+					id: "53F90DBF0C9636AE"
+					item: "sophisticatedbackpacks:upgrade_base"
+					type: "item"
+				}
+				{
+					id: "2F9B6F396B107AC5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "37DD40F878C27BBC"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			description: ["La brújula de naturaleza es un objeto que permite encontrar biomas de manera sencilla, al hacer click derecho con ella se desplegará un menú que te permite seleccionar un bioma, al seleccionarlo la brújula apuntará en su dirección"]
+			id: "0667D42B70035597"
+			rewards: [{
+				id: "4FAF9706434D459B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01D266742C2C3CC9"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Brújula de naturaleza"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			description: ["La brújula de exploración es un objeto que permite encontrar estructuras de manera sencilla, al hacer click derecho con ella se desplegará un menú que te permite seleccionar una estructura, al seleccionarlo la brújula apuntará en su dirección."]
+			id: "4131486100DD731B"
+			rewards: [{
+				id: "31E936D5CB6D8B25"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5EB087696420110C"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: ["La paravela es un artilugio excelente para la exploración temprana, para activarlo solo debes saltar al vacio y tenerla en la mano, pero ten cuidado, te puedes cansar muy rápido"]
+			id: "7AAFCF3FC9356D58"
+			rewards: [{
+				id: "6F39CE32024F05AB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3B2C49235F5A6CD5"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			description: ["El Carcaj es un artilugio especial para los arqueros y ballesteros, sirve para almacenar distintos tipos de flechas y ordenalas. Para usarlo solo debes darle click derecho en el inventario mientras sostienes unas flechas, esto las añadirá al carcaj, las flechas disparadas saldran en el orden que estan en el carcaj. Puedes equiparlo en la ranura de cinturon de los accesorios."]
+			id: "7B634BE6461A8E1B"
+			rewards: [{
+				count: 64
+				id: "3525461A58BEEE33"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00AF2C8B91467CFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							SelectedSlot: 0
+							Size: 6
+						}
+					}
+					id: "supplementaries:quiver"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			description: ["Los martillos son herramientas que funcionan como picos, pero destruyen un área más amplia. Los hay desde 3x3x1 hasta 5x5x5"]
+			id: "594F3F7067BC2220"
+			rewards: [{
+				id: "11038C2A235DD4A4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "75086B0CCC542CB2"
+				item: {
+					Count: 1
+					id: "justhammers:stone_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Martillos"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: ["Este objeto permite simplificar el tradeo con los aldeanos, pueden meterse en el para usarlos de manera indefinida."]
+			id: "66A1D8B85927169A"
+			rewards: [{
+				id: "7040594B3CEA6B91"
+				item: "easy_villagers:villager"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFFF82CF039174D"
+				item: "easy_villagers:trader"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			description: ["Los cajones son espacios de almacenamiento que perrmiten guardar una gran cantidad de un item en especifico, son ideales para materiales de los que se tiene o necesitan grandes cantidades, como piedra, tierra, madera, etc."]
+			id: "0272F94C7001DCD6"
+			rewards: [{
+				id: "4015DE224F537937"
+				item: "storagedrawers:obsidian_storage_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "701FBA9503A1B205"
+				item: "storagedrawers:oak_full_drawers_1"
+				type: "item"
+			}]
+			title: "Drawers"
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			description: ["Las waystones sirven para teletransportarse entre las ubicaciones donde se encuentren y se hayan descubierto. Usualmente se suelen encontrar en las aldeas, aunque también son crafteables."]
+			id: "3F5D8CFA7152483A"
+			rewards: [{
+				id: "1581D308A61F50E4"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "7B69F46BF6341F2B"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Iron Chests es un mod que permite mejorar los cofres, permitiendo que tengan mucho más espacio para almacenar items."]
+			id: "147C9417B1114C21"
+			rewards: [{
+				id: "4AD07E2079F11118"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5236A7ADDD6AABE4"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			title: "Iron Chests"
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			description: ["Iron Furnaces es un mod que permite mejorar los hornos, mejorando su velocidad y eficiencia."]
+			id: "09260AACBEB7DF79"
+			tasks: [{
+				id: "1EBA17A20CD9E992"
+				item: "ironfurnaces:upgrade_iron"
+				type: "item"
+			}]
+			title: "Iron Furnaces"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			description: ["El tomo de experiencia sirve para almacenar niveles de experiencia en un libro, y evitar que se pierda al morir"]
+			id: "58D5FE36485A7FEC"
+			rewards: [{
+				id: "62131428B7A264AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "04BBB2EE253F6876"
+				item: {
+					Count: 1
+					id: "xpbook:xp_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			description: ["La estación de alimentación sirve para alimentar de manera automatica a los animales cercanos, haciendo que se reproduzcan de manera pasiva."]
+			id: "36ACCD0E674AFE48"
+			rewards: [{
+				id: "4D3753ADBCDA320C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "01CDFF8FDC1AB1A8"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			title: "Estacion de alimentación"
+			x: -11.0d
+			y: 1.0d
+		}
+	]
+	title: "Herramientas útiles"
+}

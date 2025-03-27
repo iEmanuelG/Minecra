@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_twilight_forest"
+	group: "0CD68BA1C2CB88C2"
+	id: "660F5718EDF5EB31"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The twilight forest es un mod de exploración y progresión de jefes prionero en minecraft, en donde encontraremos muchos seres mitológicos y de fantasía con los que podremos enfrentarnos."]
+			icon: "twilightforest:hollow_oak_sapling"
+			id: "5E481D1F55B8A72E"
+			shape: "rsquare"
+			tasks: [{
+				id: "0F5E1622BBD4205B"
+				title: "The Twilight Forest"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E481D1F55B8A72E"]
+			description: ["Para ingresar a la dimension del twilight forest se debe crear un portal. Para este portal se debe poner un 2x2 de agua en un agujero, rodearlo con flores y lanzar un diamante al agua. Esto activará el portal."]
+			id: "1631750520869BAF"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "437810DA655CE92F"
+				type: "dimension"
+			}]
+			title: "Portal al Twilight Forest"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1631750520869BAF"]
+			description: ["Al entrar en la dimensión lo primero que debemos hacer es encontrar un cuervo en el bosque, al matarlo nos soltará la pluma de cuervo. Luego, en las cuevas, encontraremos torchberries, cosechandolas las obtendremos. Junto con uno de piedra luminosa, la pluma y las torchberries podremos hacer el&d Magic Map Focus&r. Rodeandolo con papel haremos un mapa para la dimensión"]
+			id: "60AE00AE2580D22C"
+			tasks: [{
+				id: "7F7975B8360C4D94"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			title: "Magic Map Focus"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1631750520869BAF"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Los primeros jefes de la progresión aparecen aleatoriamente en el bosque. Puede haber más de uno de estos jefes en un mismo mapa, y matar a más de uno no afectará a la progresión."
+				""
+				"Los jefes del bosque suelen estar en el centro de los biomas."
+			]
+			id: "7962A6B099A87C7B"
+			rewards: [{
+				id: "663EED78A7C409CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				biome: "twilightforest:forest"
+				icon: "twilightforest:twilight_oak_sapling"
+				id: "6FB79039DC6206CA"
+				type: "biome"
+			}]
+			title: "El Bosque"
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7962A6B099A87C7B"]
+			description: ["La &bNaga&r se encuentra en el Patio de las Nagas. Al matarla, suelta escamas de naga y un trofeo de naga, además de otros botines. Al tocar una escama, el jugador podrá entrar en la Torre del Lich."]
+			icon: "twilightforest:naga_trophy"
+			id: "037D9A9DF013DE9E"
+			rewards: [{
+				id: "420E8C394ADE6767"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "03EB87EC3A1FDC2E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Naga"
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["037D9A9DF013DE9E"]
+			description: ["El Lich del Crepúsculo se encuentra en la Torre del Lich. Matarlo y conseguir un cetro permitirá al jugador entrar en el Pantano, el Bosque Oscuro y el Bosque Nevado, así como en las mazmorras de cada zona."]
+			id: "19135A7DE0C12DE7"
+			rewards: [{
+				id: "1ED1F76F4B4D94E4"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				icon: "twilightforest:lich_trophy"
+				id: "5D07FE145F6ECD90"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Lich"
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19135A7DE0C12DE7"]
+			description: ["La siguiente fase en la progresión del Twilight Forest es el Pantano. Antes de entrar en esta fase, hay que derrotar al Lich y coger su Cetro. Si entras en esta fase antes de derrotar al Lich, sufrirás hambre."]
+			id: "6506FE53666E81D7"
+			rewards: [{
+				id: "722C68463F7BA907"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "twilightforest:swamp"
+				icon: "twilightforest:mangrove_sapling"
+				id: "418BA94BB989276C"
+				type: "biome"
+			}]
+			title: "Pantano"
+			x: -10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6506FE53666E81D7"]
+			description: ["La Minoshroom se puede encontrar en los Laberintos, que se encuentran en el bioma del Pantano. Las entradas naturales se pueden encontrar a través de cuevas o las pequeñas colinas que se encuentran en la superficie que conducen directamente al centro. El objetivo de esta mazmorra es matar al Minoshroom. Al matarlo y comer uno de los Meef Stroganoff que caen, el jugador podrá entrar en el Pantano de Fuego."]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "4A13C6415B055004"
+			rewards: [{
+				id: "4014BEFCDA681B1F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "5E3B74039A1A5BA4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Minoshroom"
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5A6CF3DDAC162E36"]
+			description: ["La Hydra se encuentra en la Guarida de la Hydra, en medio de un Pantano de Fuego. Si la matas y obtienes de ella Sangre Ardiente, completarás un paso para desbloquear las Tierras Altas."]
+			id: "081AADA241F874BD"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				icon: "twilightforest:hydra_trophy"
+				id: "61015DD8BCBC4634"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Hydra"
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4A13C6415B055004"]
+			description: ["Este bioma es similar al Pantano, solo que tiene charcos de lava en lugar de charcos de agua, y esparcidos por el suelo hay Bloques Humeantes y Chorros de Fuego. "]
+			id: "5A6CF3DDAC162E36"
+			tasks: [{
+				biome: "twilightforest:fire_swamp"
+				icon: "twilightforest:canopy_sapling"
+				id: "399E20F36900914A"
+				type: "biome"
+			}]
+			title: "Pantano de fuego"
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["19135A7DE0C12DE7"]
+			description: ["La siguiente etapa en la progresión del Twilight Forest es el bioma del Bosque Oscuro. Además de su extrema oscuridad, los jugadores quedarán ciegos a menos que hayan derrotado antes al Lich del Crepúsculo. Esto puede evitarse si el jugador lleva un casco con visión nocturna."]
+			id: "3885D378860FC60A"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:darkwood_sapling"
+				id: "1297690F0E34DCFF"
+				type: "biome"
+			}]
+			title: "Bosque oscuro"
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3885D378860FC60A"]
+			description: [
+				"El Caballero Fantasma se puede encontrar en la Fortaleza del Caballero Goblin bajo el Bosque Oscuro. Antes de poder entrar en la fortaleza, el jugador debe encontrar una habitación con un Pedestal de Trofeos. En el pedestal, deben colocar cualquier trofeo. Una vez colocado, el escudo que rodea la fortaleza desaparecerá."
+				""
+				"A continuación, el jugador debe atravesar la fortaleza hasta encontrar al Caballero Fantasma. Al matarlo se permitirá el acceso a la Torre Oscura."
+			]
+			id: "25D857AE9920E074"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				icon: "twilightforest:knight_phantom_trophy"
+				id: "5BD1B48B1EAC5EA5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Caballero Fantasma"
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25D857AE9920E074"]
+			description: ["Esta estructura se encuentra en los bosques oscuros, sobresalen bastante"]
+			id: "4DA5A9672F753AF9"
+			tasks: [{
+				icon: "twilightforest:tower_key"
+				id: "1C247F5E9C628B4F"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			title: "Torre Oscura"
+			x: -8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4DA5A9672F753AF9"]
+			description: ["El Ur-Ghast se encuentra en la Torre Oscura, en medio del Bosque Oscuro. Se encuentra en la parte superior de la torre, junto con muchos otros monstruos, como Ghastlings Carminite, Towerwood Borers, y Carminite Golems. Al matarlo y coger las Lágrimas Ardientes completarás un paso para desbloquear las Tierras Altas."]
+			id: "6DCB63797D9D0AA0"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: "twilightforest:ur_ghast_trophy"
+				id: "46D6573AC17EE0F4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ur-Ghast"
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["19135A7DE0C12DE7"]
+			description: ["La siguiente etapa en la progresión del Twilight Forest es en los biomas Bosque Nevado y Glaciar. Si entras antes de derrotar al Lich del Crepúsculo, el jugador se congelará y se moverá mucho más lento que en otros biomas."]
+			id: "73D0F9AA4A710127"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "twilightforest:transformation_sapling"
+				id: "0612894D175226F3"
+				type: "biome"
+			}]
+			title: "Bosque nevado"
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["73D0F9AA4A710127"]
+			description: ["El Yeti Alfa se encuentra en la Guarida del Yeti, en el centro de los biomas del Bosque Nevado. Hay cuatro entradas naturales. Dentro de la guarida hay muchas manadas de Yeti. Si matas al Yeti Alfa y consigues la piel de Yeti Alfa, desbloquearás el bioma Glaciar."]
+			id: "214BD4A3608E57E1"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: "twilightforest:alpha_yeti_trophy"
+				id: "1A3E40510915131E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Alpha Yeti"
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["214BD4A3608E57E1"]
+			id: "78F329BB215830B7"
+			tasks: [{
+				biome: "twilightforest:glacier"
+				icon: "twilightforest:transformation_sapling"
+				id: "4811C4676F623994"
+				title: "Glaciar"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["78F329BB215830B7"]
+			description: ["La reina de nieve se encuentra en el Palacio de la Aurora, situado en los biomas Glaciar. Al conquistarla, el jugador completará un paso para desbloquear las Tierras Altas."]
+			id: "3235CFC97E3700AC"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				icon: "twilightforest:snow_queen_trophy"
+				id: "0C77F0BDF818CF68"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Reina de nieve"
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3235CFC97E3700AC"
+				"6DCB63797D9D0AA0"
+				"081AADA241F874BD"
+			]
+			description: ["Cuando se haya derrotado a la Hydra, a Ur-Ghast y a la Reina de Nieve, se desbloquearán las Tierras Altas, que revelarán las etapas finales de la progresión. Si entras antes de derrotar a los tres jefes, el jugador será dañado por la lluvia ácida."]
+			id: "213F236D67DE530B"
+			tasks: [{
+				biome: "twilightforest:highlands"
+				icon: "twilightforest:mining_sapling"
+				id: "46CC7C22E1EF04FD"
+				type: "biome"
+			}]
+			title: "Tierras Altas"
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["213F236D67DE530B"]
+			dependency_requirement: "one_completed"
+			description: ["Lo suelta un Minero Gigante al matarlo. Tiene 1024 puntos de durabilidad y se puede usar para extraer Bloques Gigantes como la Obsidiana Gigante de la Bóveda de Obsidiana. "]
+			id: "409D6D42A5F65579"
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				icon: {
+					Count: 1
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7D93EAC0C0AACADB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pico del gigante"
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["21CAD108D2C9C1C3"]
+			description: ["Una vez obtenida la lámpara, el jugador puede pasar a la siguiente fase."]
+			id: "16F7F4C3AD765AE6"
+			tasks: [{
+				id: "1D98384D88BF9669"
+				item: {
+					Count: 1
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["409D6D42A5F65579"]
+			description: ["A diferencia de las fases anteriores, las Tierras Altas no tienen un jefe al que derrotar, sino un objeto que obtener para llegar al centro. Esta zona se divide en dos: la Cueva de los Trolls y la Cabaña de las Nubes. Para completar este logro, el jugador debe obtener la lámpara de cenizas del interior de una bóveda de obsidiana, que requiere un pico de gigante para entrar. "]
+			id: "21CAD108D2C9C1C3"
+			tasks: [{
+				icon: "twilightforest:giant_obsidian"
+				id: "77835CFEFA7DFA19"
+				structure: "twilightforest:troll_cave"
+				title: "La cueva de los trolls"
+				type: "structure"
+			}]
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["16F7F4C3AD765AE6"]
+			description: ["Las Tierras Espinosas es el último escenario funcional del Twilight Forest. Se completa simplemente quemando los densos arbustos de espinas con una lámpara de cenizas. Esto permite al jugador pasar a la fase final de progresión."]
+			id: "3175F784220C8C0C"
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				icon: "twilightforest:sorting_sapling"
+				id: "568A8E89517754BC"
+				type: "biome"
+			}]
+			title: "Las tierras espinosas"
+			x: -8.5d
+			y: 20.5d
+		}
+	]
+	title: "The Twilight Forest"
+}

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alexs_mobs"
+	group: "0CD68BA1C2CB88C2"
+	id: "27E39A974F0E6C21"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Alex's Mobs es un mod que añade &a89&r nuevos mobs a Minecraft. Todos estos mobs se dividen en dos categorías: la mayoría de ellos son criaturas del mundo real, como osos pardos, correcaminos, orcas, etc; pero algunos de ellos son puramente ficticios, como le Enderígrado y la Serpiente ósea. Todas estas criaturas cumplen un propósito necesario y tienen drops, mecánicas o funciones únicas, ya que no hay criaturas puramente estéticas. Toda la información sobre cada uno de ellos se encuentra en la &3Enciclopedia de animales&r"]
+		icon: "alexsmobs:animal_dictionary"
+		id: "781D85BC4CC8E0CA"
+		rewards: [{
+			id: "0C1624558EE9C7DA"
+			item: "alexsmobs:animal_dictionary"
+			type: "item"
+		}]
+		tasks: [{
+			id: "52001B4609C6287C"
+			title: "Enciclopedia de Mobs"
+			type: "checkmark"
+		}]
+		title: "Enciclopedia de Animales"
+		x: -6.5d
+		y: -4.5d
+	}]
+	title: "Alex's Mobs"
+}

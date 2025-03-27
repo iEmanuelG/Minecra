@@ -1,0 +1,174 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "0CD68BA1C2CB88C2"
+	id: "7FD96522C4D20912"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["En Aquamirae encontraremos un nuevo bioma congelado, con laberintos de hielo y un océano helado con creaturas peligrosas. Junto con nuevos mobs, estructuras y tesoros únicos."]
+			icon: "aquamirae:rune_of_the_storm"
+			id: "2D695C55DE9C1B38"
+			shape: "rsquare"
+			tasks: [{
+				id: "06967353F4F79570"
+				title: "Aquamirae"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D695C55DE9C1B38"]
+			description: ["Este mod nos trae un nuevo lugar donde encontraremos todos los items de este mod, el laberinto de hielo, aqui encontraremos nuevas estructuras, enemigos y botín especial."]
+			id: "6AD046766C5116BC"
+			require_sequential_tasks: true
+			tasks: [{
+				icon: "aquamirae:sharp_bones"
+				id: "510FC73908EA4FF7"
+				structure: "aquamirae:ice_maze/common"
+				type: "structure"
+			}]
+			title: "Laberinto de hielo"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["Los peces abisales son nadadores veloces y ponzoñosos, envenan con sus golpes. Al matarlos pueden soltar un &bórgano luminoso&r, que nos servirá para hacer una &eburbuja luminiscente&r"]
+			id: "71A2E2C9EE42FFA0"
+			rewards: [{
+				id: "65E5FFFBE3F4C47F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:esca"
+				id: "5BFBAC150EE13A7D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Pez Abisal"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["Son espíritus condenados a vagar por el laberinto congelado."]
+			id: "01E5674719BDF755"
+			rewards: [{
+				id: "436E8DBB3668986C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aquamirae:tortured_soul"
+				icon: "aquamirae:ship_graveyard_echo"
+				id: "700EBD0BDC256957"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Almas torturadas"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["Son creaturas feroces con grandes colmillos que solo aparecen por la noche"]
+			id: "3C15D669D8BF737B"
+			rewards: [{
+				id: "47C1F9C5CCF0600E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aquamirae:maw"
+				icon: "aquamirae:fin"
+				id: "3C7EC08FBABE4014"
+				title: "Fauces"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["Es una enorme serpiente marina de la que solo se podrá ver su cabeza, se encuentra en la estructura de la base subterranea, tiena la habilidad de moverse por el suelo, haciendola muy difícil de matar. Al morir podrá soltar bolsas del tesoro y pergaminos del mar muerto, los cuales al usar daran efectos aleatorios."]
+			id: "4834AA13DFEED86D"
+			rewards: [{
+				id: "354ADA2C0188F0E9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:dead_sea_scroll"
+				id: "582ECCF5FF2B69EC"
+				title: "Anguila"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["La madre del laberinto es el mini jefe de este bioma, es una mantaraya gigante de amatista, cuando está cerca saldrá un mensaje diciendo \"&4Sientes las vibraciones bajo el hielo...&r\", en ese momento debemos sumergirnos bajo el hielo y enfrentarnos a ella. Al morir nos soltará la amatista abisal, que sirve para crear armaduras con efectos especiales."]
+			id: "05B6AD62233479FC"
+			rewards: [{
+				id: "2BA5845D0633A4B7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:abyssal_amethyst"
+				id: "46718BC9A55E99AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AD046766C5116BC"]
+			description: ["La capitana cornelia es el jefe final del mod, podrá ser llamada con el &dcuerno de concha&r, un objeto raro que nos podrá soltar un illager de cualquier naufragio dentro del laberinto de hielo, hay uno por cada estructura. Al derrotarla nos soltará el casco de submarinismo y la llave de hielo, la cual sirve para abrir el cofre congelado en la base subterranea, en donde encontraremos botín especial."]
+			id: "2F097300BB97923A"
+			rewards: [{
+				id: "09A773ED598DF5BC"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					entity: "aquamirae:captain_cornelia"
+					icon: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0DD6E8F1B97BF03E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "34A93603B5E69857"
+					item: "aquamirae:shell_horn"
+					type: "item"
+				}
+			]
+			title: "Fantasma de la capitana Cornelia"
+			x: 0.0d
+			y: 6.0d
+		}
+	]
+	title: "Aquamirae"
+}
