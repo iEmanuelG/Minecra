@@ -126,10 +126,12 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:beach": "2025-03-27 03:39:06 +0000",
       "minecraft:river": "2025-03-24 04:14:11 +0000",
       "minecraft:snowy_plains": "2025-03-24 04:35:44 +0000",
       "minecraft:cold_ocean": "2025-03-24 04:06:31 +0000",
       "minecraft:forest": "2025-03-26 01:54:19 +0000",
+      "minecraft:deep_cold_ocean": "2025-03-27 03:51:04 +0000",
       "minecraft:plains": "2025-03-24 04:34:52 +0000"
     },
     "done": false
@@ -179,6 +181,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-03-26 01:10:47 +0000",
+      "cooked_beef": "2025-03-27 03:45:21 +0000",
       "cooked_cod": "2025-03-24 04:38:58 +0000",
       "bread": "2025-03-24 05:10:26 +0000"
     },
@@ -259,6 +262,110 @@
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-03-26 01:20:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-03-27 03:28:56 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/spinefish": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:52 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2025-03-27 03:46:27 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2025-03-27 03:39:43 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/fin": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:52 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/obtain_fin": {
+    "criteria": {
+      "fin": "2025-03-27 04:20:52 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/sea_stew": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:52 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2025-03-27 03:45:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "supplementaries:flax": "2025-03-27 03:56:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/craft_knife": {
+    "criteria": {
+      "iron_knife": "2025-03-27 03:32:05 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:recipes/sharp_bones": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:53 +0000"
+    },
+    "done": true
+  },
+  "paraglider:paraglider": {
+    "criteria": {
+      "paraglider": "2025-03-27 03:31:22 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sweet_berries": "2025-03-27 03:57:31 +0000",
+      "wheat": "2025-03-27 03:57:25 +0000",
+      "carrot": "2025-03-27 03:59:34 +0000"
+    },
+    "done": false
+  },
+  "mca:recipes/misc/books": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:53 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "cabbage_seeds": "2025-03-27 03:42:53 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:27 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/blueprint": {
+    "criteria": {
+      "has_item": "2025-03-27 04:20:53 +0000"
     },
     "done": true
   },
