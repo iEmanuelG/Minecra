@@ -190,6 +190,12 @@
     },
     "done": true
   },
+  "aquamirae:adventure/obtain_dagger_of_greed": {
+    "criteria": {
+      "dagger_of_greed": "2025-03-27 03:30:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2025-03-27 03:30:33 +0000"
@@ -202,9 +208,9 @@
     },
     "done": false
   },
-  "mca:root": {
+  "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "village_taiga": "2025-03-27 03:52:29 +0000"
+      "minecraft:skeleton": "2025-03-27 03:42:02 +0000"
     },
     "done": true
   },
@@ -214,21 +220,15 @@
     },
     "done": true
   },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2025-03-27 03:52:29 +0000"
+    },
+    "done": true
+  },
   "mca:recipes/misc/bouquet": {
     "criteria": {
       "has_item": "2025-03-27 03:57:17 +0000"
-    },
-    "done": true
-  },
-  "aquamirae:adventure/obtain_dagger_of_greed": {
-    "criteria": {
-      "dagger_of_greed": "2025-03-27 03:30:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:skeleton": "2025-03-27 03:42:02 +0000"
     },
     "done": true
   },

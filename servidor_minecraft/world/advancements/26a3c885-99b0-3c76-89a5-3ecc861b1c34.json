@@ -112,6 +112,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2025-03-29 03:30:06 +0000",
       "minecraft:spider": "2025-03-26 01:22:01 +0000",
       "minecraft:enderman": "2025-03-24 04:30:05 +0000",
       "minecraft:zombie": "2025-03-24 04:06:15 +0000"
@@ -367,6 +368,18 @@
   "mca:recipes/misc/blueprint": {
     "criteria": {
       "has_item": "2025-03-27 04:20:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-03-29 03:30:06 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-29 03:30:57 +0000"
     },
     "done": true
   },

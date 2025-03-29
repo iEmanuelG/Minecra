@@ -338,5 +338,11 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-03-29 03:23:11 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
