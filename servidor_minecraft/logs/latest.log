@@ -1426,3 +1426,16 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [29Mar2025 02:23:16.420] [Server thread/INFO] [ping-wheel/]: Channel update: iGalax -> default
 [29Mar2025 02:23:16.475] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 242a0983-bc33-34b3-a20b-ea14955d0c21 was loaded
 [29Mar2025 02:23:18.823] [Server thread/INFO] [do_a_barrel_roll/]: Client of iGalax accepted server config.
+[29Mar2025 02:27:53.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apple has made the advancement [Minecraft Comes Alive]
+[29Mar2025 02:31:04.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apple has made the advancement [Suit Up]
+[29Mar2025 02:32:14.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros was slain by Zombie
+[29Mar2025 02:32:18.361] [Server thread/INFO] [do_a_barrel_roll/]: Client of Hydragyros accepted server config.
+[29Mar2025 02:35:52.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has made the advancement [Isn't It Iron Pick]
+[29Mar2025 02:38:50.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax was slain by Cave Dweller
+[29Mar2025 02:38:57.068] [Server thread/INFO] [do_a_barrel_roll/]: Client of iGalax accepted server config.
+[29Mar2025 02:43:08.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has made the advancement [Chest Slayer]
+[29Mar2025 02:45:09.732] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: iGalax moved wrongly!
+[29Mar2025 02:45:24.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has made the advancement [Not Today, Thank You]
+[29Mar2025 02:46:08.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros was shot by Forgotten
+[29Mar2025 02:46:12.067] [Server thread/INFO] [do_a_barrel_roll/]: Client of Hydragyros accepted server config.
+[29Mar2025 02:46:34.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has reached the goal [This Belongs in a Museum]

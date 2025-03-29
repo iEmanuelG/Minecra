@@ -218,6 +218,8 @@
       "minecraft:zoglin": "2025-03-27 03:59:44 +0000",
       "minecraft:vindicator": "2025-03-26 16:44:13 +0000",
       "minecraft:spider": "2025-03-24 05:07:26 +0000",
+      "minecraft:slime": "2025-03-29 02:37:49 +0000",
+      "quark:forgotten": "2025-03-29 02:46:33 +0000",
       "minecraft:wither_skeleton": "2025-03-27 03:59:24 +0000",
       "minecraft:zombie": "2025-03-24 05:02:24 +0000"
     },
@@ -415,15 +417,39 @@
     },
     "done": true
   },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "rice": "2025-03-27 03:58:35 +0000"
+    },
+    "done": true
+  },
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2025-03-27 04:06:04 +0000"
     },
     "done": true
   },
-  "farmersdelight:main/get_fd_seed": {
+  "artifacts:chest_slayer": {
     "criteria": {
-      "rice": "2025-03-27 03:58:35 +0000"
+      "kill_mimic": "2025-03-29 02:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-03-29 02:45:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2025-03-29 02:35:52 +0000"
+    },
+    "done": true
+  },
+  "quark:get_forgotten_hat": {
+    "criteria": {
+      "get_forgotten_hat": "2025-03-29 02:46:34 +0000"
     },
     "done": true
   },
