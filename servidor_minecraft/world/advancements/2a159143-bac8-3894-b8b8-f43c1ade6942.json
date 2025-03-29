@@ -156,7 +156,8 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_mutton": "2025-03-24 04:50:36 +0000"
+      "cooked_mutton": "2025-03-24 04:50:36 +0000",
+      "cooked_beef": "2025-03-29 03:44:49 +0000"
     },
     "done": false
   },
@@ -229,6 +230,30 @@
   "mca:recipes/misc/bouquet": {
     "criteria": {
       "has_item": "2025-03-27 03:57:17 +0000"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:ocean_ruin_pillager/find_normal": {
+    "criteria": {
+      "requirement": "2025-03-29 03:53:32 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-29 03:35:15 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/needle_and_thread": {
+    "criteria": {
+      "has_item": "2025-03-29 03:36:51 +0000"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:root": {
+    "criteria": {
+      "awesomedungeonocean:ocean_ruin_pillager": "2025-03-29 03:53:32 +0000"
     },
     "done": true
   },

@@ -1457,3 +1457,15 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [29Mar2025 03:30:57.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iOkarun has completed the challenge [Free Willy]
 [29Mar2025 03:32:21.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has made the advancement [Who is Cutting Onions?]
 [29Mar2025 03:32:40.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Hydragyros moved too quickly! -7.17356281939044,-1.8787031594607981,6.839377988951014
+[29Mar2025 03:35:15.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iKreus has completed the challenge [Free Willy]
+[29Mar2025 03:35:27.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros has completed the challenge [Free Willy]
+[29Mar2025 03:48:37.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Apple has made the advancement [Acquire Hardware]
+[29Mar2025 03:49:32.690] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Skeleton['Unlicensed Alchemist'/103300, l='ServerLevel[world]', x=98.53, y=71.00, z=1018.37] died: Unlicensed Alchemist was slain by iOkarun
+[29Mar2025 03:49:34.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iOkarun was killed by Potion using magic
+[29Mar2025 03:49:35.574] [Server thread/INFO] [do_a_barrel_roll/]: Client of iOkarun accepted server config.
+[29Mar2025 03:49:44.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros was slain by Drunken Villager
+[29Mar2025 03:49:48.709] [Server thread/INFO] [do_a_barrel_roll/]: Client of Hydragyros accepted server config.
+[29Mar2025 03:51:46.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iOkarun was slain by Drunken Villager
+[29Mar2025 03:51:47.370] [Server thread/INFO] [do_a_barrel_roll/]: Client of iOkarun accepted server config.
+[29Mar2025 03:53:28.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has completed the challenge [Find: Ruin pillager]
+[29Mar2025 03:53:32.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iKreus has completed the challenge [Find: Ruin pillager]

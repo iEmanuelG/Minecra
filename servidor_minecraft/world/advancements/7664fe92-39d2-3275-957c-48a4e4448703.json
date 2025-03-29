@@ -67,12 +67,21 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "shrubland": "2025-03-29 03:49:03 +0000",
+      "rocky_shrubland": "2025-03-29 03:54:07 +0000",
+      "jacaranda_glade": "2025-03-29 03:46:43 +0000",
       "cold_desert": "2025-03-24 04:11:44 +0000",
       "maple_woods": "2025-03-26 01:34:50 +0000",
+      "orchard": "2025-03-29 03:47:49 +0000",
       "coniferous_forest": "2025-03-26 01:06:09 +0000",
       "aspen_glade": "2025-03-26 01:32:19 +0000",
+      "seasonal_forest": "2025-03-29 03:46:33 +0000",
+      "pasture": "2025-03-29 03:46:40 +0000",
+      "lavender_field": "2025-03-29 03:46:37 +0000",
       "fir_clearing": "2025-03-24 04:05:20 +0000",
       "pumpkin_patch": "2025-03-24 04:15:41 +0000",
+      "grassland": "2025-03-29 03:54:12 +0000",
+      "prairie": "2025-03-29 03:46:50 +0000",
       "gravel_beach": "2025-03-26 01:06:19 +0000",
       "snowy_maple_woods": "2025-03-24 04:14:35 +0000"
     },
@@ -103,10 +112,12 @@
       "minecraft:beach": "2025-03-26 01:38:06 +0000",
       "minecraft:river": "2025-03-26 01:06:04 +0000",
       "minecraft:snowy_plains": "2025-03-24 04:11:56 +0000",
+      "minecraft:stony_shore": "2025-03-29 03:49:42 +0000",
       "minecraft:snowy_taiga": "2025-03-24 04:12:37 +0000",
       "minecraft:cold_ocean": "2025-03-26 01:27:44 +0000",
       "minecraft:forest": "2025-03-24 04:15:37 +0000",
       "minecraft:deep_cold_ocean": "2025-03-27 04:02:50 +0000",
+      "minecraft:ocean": "2025-03-29 03:52:10 +0000",
       "minecraft:snowy_beach": "2025-03-24 04:15:11 +0000",
       "minecraft:plains": "2025-03-24 04:11:19 +0000"
     },
@@ -326,6 +337,12 @@
     },
     "done": true
   },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-03-29 03:35:27 +0000"
+    },
+    "done": true
+  },
   "quark:get_forgotten_hat": {
     "criteria": {
       "get_forgotten_hat": "2025-03-29 02:56:22 +0000"
@@ -335,6 +352,12 @@
   "mca:recipes/misc/rose_gold_dust": {
     "criteria": {
       "has_item": "2025-03-29 02:44:37 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_greenwood_pub": {
+    "criteria": {
+      "location0": "2025-03-29 03:47:56 +0000"
     },
     "done": true
   },

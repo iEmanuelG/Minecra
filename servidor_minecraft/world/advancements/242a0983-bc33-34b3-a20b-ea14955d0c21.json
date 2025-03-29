@@ -222,7 +222,8 @@
       "quark:forgotten": "2025-03-29 02:46:33 +0000",
       "minecraft:wither_skeleton": "2025-03-27 03:59:24 +0000",
       "minecraft:cave_spider": "2025-03-29 02:51:00 +0000",
-      "minecraft:zombie": "2025-03-24 05:02:24 +0000"
+      "minecraft:zombie": "2025-03-24 05:02:24 +0000",
+      "minecraft:drowned": "2025-03-29 03:54:16 +0000"
     },
     "done": false
   },
@@ -436,6 +437,12 @@
     },
     "done": true
   },
+  "awesomedungeonocean:ocean_ruin_pillager/find_normal": {
+    "criteria": {
+      "requirement": "2025-03-29 03:53:28 +0000"
+    },
+    "done": true
+  },
   "artifacts:chest_slayer": {
     "criteria": {
       "kill_mimic": "2025-03-29 02:43:08 +0000"
@@ -463,6 +470,12 @@
   "quark:get_forgotten_hat": {
     "criteria": {
       "get_forgotten_hat": "2025-03-29 02:46:34 +0000"
+    },
+    "done": true
+  },
+  "awesomedungeonocean:root": {
+    "criteria": {
+      "awesomedungeonocean:ocean_ruin_pillager": "2025-03-29 03:53:28 +0000"
     },
     "done": true
   },
