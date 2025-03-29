@@ -1469,3 +1469,6 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [29Mar2025 03:51:47.370] [Server thread/INFO] [do_a_barrel_roll/]: Client of iOkarun accepted server config.
 [29Mar2025 03:53:28.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has completed the challenge [Find: Ruin pillager]
 [29Mar2025 03:53:32.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iKreus has completed the challenge [Find: Ruin pillager]
+[29Mar2025 03:57:53.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iKreus has completed the challenge [Find: The column temple]
+[29Mar2025 03:57:53.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has completed the challenge [Find: The column temple]
+[29Mar2025 03:58:28.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iKreus has made the advancement [Diamonds!]
