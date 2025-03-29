@@ -1439,3 +1439,5 @@ com.google.gson.JsonSyntaxException: Unknown type 'minecraft:alternative'
 [29Mar2025 02:46:08.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros was shot by Forgotten
 [29Mar2025 02:46:12.067] [Server thread/INFO] [do_a_barrel_roll/]: Client of Hydragyros accepted server config.
 [29Mar2025 02:46:34.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: iGalax has reached the goal [This Belongs in a Museum]
+[29Mar2025 02:56:22.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros has reached the goal [This Belongs in a Museum]
+[29Mar2025 02:59:30.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Hydragyros has made the advancement [Isn't It Iron Pick]
