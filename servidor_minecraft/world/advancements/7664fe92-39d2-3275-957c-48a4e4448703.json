@@ -270,21 +270,9 @@
     },
     "done": true
   },
-  "mca:recipes/misc/family_tree": {
+  "farmersdelight:main/eat_comfort_food": {
     "criteria": {
-      "has_item": "2025-03-27 03:48:20 +0000"
-    },
-    "done": true
-  },
-  "mca:root": {
-    "criteria": {
-      "village_taiga": "2025-03-27 03:39:41 +0000"
-    },
-    "done": true
-  },
-  "aquamirae:recipes/sea_stew": {
-    "criteria": {
-      "has_item": "2025-03-27 04:05:26 +0000"
+      "comfort": "2025-03-27 03:26:53 +0000"
     },
     "done": true
   },
@@ -294,27 +282,39 @@
     },
     "done": true
   },
+  "mca:recipes/misc/potions": {
+    "criteria": {
+      "has_item": "2025-03-27 03:33:36 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_taiga": "2025-03-27 03:39:41 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2025-03-27 03:48:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2025-03-27 03:57:03 +0000"
     },
     "done": true
   },
+  "aquamirae:recipes/sea_stew": {
+    "criteria": {
+      "has_item": "2025-03-27 04:05:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2025-03-27 04:05:33 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/eat_comfort_food": {
-    "criteria": {
-      "comfort": "2025-03-27 03:26:53 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/potions": {
-    "criteria": {
-      "has_item": "2025-03-27 03:33:36 +0000"
     },
     "done": true
   },
