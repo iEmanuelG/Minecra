@@ -1,0 +1,50 @@
+[04:33:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:33:42] [Worker-Main-1/INFO]: No existing world data, creating new world
+[04:33:42] [Worker-Main-1/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
+[04:33:43] [ServerMain/INFO]: Loaded 1585 recipes
+[04:33:43] [ServerMain/INFO]: Loaded 1688 advancements
+[04:33:43] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:33:44] [Server thread/INFO]: Loading properties
+[04:33:44] [Server thread/INFO]: Default game type: SURVIVAL
+[04:33:44] [Server thread/INFO]: Generating keypair
+[04:33:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:33:44] [Server thread/INFO]: Preparing level "world"
+[04:33:44] [Server thread/INFO]: Selecting global world spawn...
+[04:33:50] [Server thread/INFO]: Loading 0 persistent chunks...
+[04:33:50] [Server thread/INFO]: Preparing spawn area: 100%
+[04:33:50] [Server thread/INFO]: Time elapsed: 5887 ms
+[04:33:50] [Server thread/INFO]: Done (6.154s)! For help, type "help"
+[04:33:50] [Server thread/INFO]: Starting GS4 status listener
+[04:33:50] [Server thread/INFO]: Thread Query Listener started
+[04:33:50] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[04:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:33:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:34:50] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:46:34] [User Authenticator #1/INFO]: UUID of player iGalax is 8850923f-8a60-4791-9246-885143dfbf7e
+[04:46:41] [Server thread/INFO]: iGalax[/127.78.230.203:55667] logged in with entity id 15 at (8.5, 99.0, 10.5)
+[04:46:41] [Server thread/INFO]: iGalax joined the game
+[04:47:21] [Server thread/INFO]: iGalax lost connection: Disconnected
+[04:47:21] [Server thread/INFO]: iGalax left the game
+[04:47:59] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[04:47:59] [Server thread/INFO]: [A[A[A[A[A[B[Bop iGalax<--[HERE]
+[04:48:08] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[04:48:08] [Server thread/INFO]: op<--[HERE]
+[04:48:14] [Server thread/INFO]: Made iGalax a server operator
+[04:48:21] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:48:49] [Server thread/INFO]: Stopping the server
+[04:48:49] [Server thread/INFO]: Stopping server
+[04:48:49] [Server thread/INFO]: Saving players
+[04:48:49] [Server thread/INFO]: Saving worlds
+[04:48:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:48:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:48:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:48:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:48:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:48:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:48:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:48:49] [Server thread/INFO]: Thread Query Listener stopped

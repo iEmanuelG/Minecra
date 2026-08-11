@@ -1,0 +1,6 @@
+Could not connect to the playit service. playit also tried to start it first, but startup failed: The playit daemon is not reachable at /run/playit/playitd.sock.
+playitd must be running in the background before playit can connect to it.
+
+Run with --systemd or --openrc to let playit start the installed service, or start playitd manually and connect with --socket-path:
+  playitd --socket-path=./playit.sock --secret-path=./playit.toml
+  playit --socket-path=./playit.sock
