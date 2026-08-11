@@ -1,14 +1,14 @@
-Aug 11 04:33:33.712 mcserver: START: PASS: Started LinuxGSM
-Aug 11 04:33:33.820 mcserver: START: PASS: Started LinuxGSM
-Aug 11 04:33:33.836 mcserver: START: INFO: LinuxGSM version: v26.2.0
-Aug 11 04:33:33.838 mcserver: START: PASS: core_exit.sh exiting with code: 0
-Aug 11 04:33:36.767 mcserver: CORE: PASS: Using cached IP as public IP address
-Aug 11 04:33:39.941 mcserver: CONSOLE: PASS: Console accessed
-Aug 11 04:34:02.742 mcserver: CONSOLE: PASS: Console closed
-Aug 11 04:34:02.751 mcserver: CONSOLE: INFO: LinuxGSM version: v26.2.0
-Aug 11 04:34:02.753 mcserver: CONSOLE: PASS: core_exit.sh exiting with code: 0
-Aug 11 04:44:55.506 mcserver: CORE: PASS: Using cached IP as public IP address
-Aug 11 04:44:58.705 mcserver: CONSOLE: PASS: Console accessed
-Aug 11 04:48:49.614 mcserver: CONSOLE: PASS: Console closed
-Aug 11 04:48:49.623 mcserver: CONSOLE: INFO: LinuxGSM version: v26.2.0
-Aug 11 04:48:49.625 mcserver: CONSOLE: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:04:07.818 mcserver: START: PASS: Started LinuxGSM
+Aug 11 05:04:07.937 mcserver: START: PASS: Started LinuxGSM
+Aug 11 05:04:07.978 mcserver: START: INFO: LinuxGSM version: v26.2.0
+Aug 11 05:04:07.984 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:04:11.833 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 05:04:13.847 mcserver: DETAILS: PASS: Using cached IP as public IP address
+Aug 11 05:04:15.861 mcserver: DETAILS: PASS: Using cached IP as public IP address
+Aug 11 05:04:20.506 mcserver: DETAILS: INFO: LinuxGSM version: v26.2.0
+Aug 11 05:04:20.509 mcserver: DETAILS: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:05:52.524 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 05:05:55.417 mcserver: CONSOLE: PASS: Console accessed
+Aug 11 05:06:25.018 mcserver: CONSOLE: PASS: Console closed
+Aug 11 05:06:25.027 mcserver: CONSOLE: INFO: LinuxGSM version: v26.2.0
+Aug 11 05:06:25.029 mcserver: CONSOLE: PASS: core_exit.sh exiting with code: 0

@@ -1,0 +1,33 @@
+Aug 11 04:50:36.217 mcserver: START: PASS: Started LinuxGSM
+Aug 11 04:50:36.334 mcserver: START: PASS: Started LinuxGSM
+Aug 11 04:50:36.365 mcserver: START: INFO: LinuxGSM version: v26.2.0
+Aug 11 04:50:36.375 mcserver: START: PASS: core_exit.sh exiting with code: 0
+Aug 11 04:50:38.866 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 04:50:41.301 mcserver: CONSOLE: PASS: Console accessed
+Aug 11 04:52:19.610 mcserver: CONSOLE: PASS: Console closed
+Aug 11 04:52:19.620 mcserver: CONSOLE: INFO: LinuxGSM version: v26.2.0
+Aug 11 04:52:19.622 mcserver: CONSOLE: PASS: core_exit.sh exiting with code: 0
+Aug 11 04:54:01.027 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 04:54:04.042 mcserver: CONSOLE: PASS: Console accessed
+Aug 11 04:54:36.238 mcserver: CONSOLE: PASS: Console closed
+Aug 11 04:54:36.247 mcserver: CONSOLE: INFO: LinuxGSM version: v26.2.0
+Aug 11 04:54:36.249 mcserver: CONSOLE: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:00:41.600 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 05:00:42.090 mcserver: CORE: PASS: Downloading command_details.sh...
+Aug 11 05:00:42.662 mcserver: DETAILS: PASS: Using cached IP as public IP address
+Aug 11 05:00:44.437 mcserver: DETAILS: PASS: Using cached IP as public IP address
+Aug 11 05:00:44.638 mcserver: DETAILS: PASS: Downloading info_messages.sh...
+Aug 11 05:00:44.834 mcserver: DETAILS: PASS: Downloading query_gamedig.sh...
+Aug 11 05:00:45.013 mcserver: DETAILS: INFO: LinuxGSM version: v26.2.0
+Aug 11 05:00:45.016 mcserver: DETAILS: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:03:55.506 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 05:03:55.942 mcserver: CORE: PASS: Downloading command_stop.sh...
+Aug 11 05:03:56.686 mcserver: STOP: PASS: Using cached IP as public IP address
+Aug 11 05:03:58.198 mcserver: STOP: PASS: Using cached IP as public IP address
+Aug 11 05:03:58.316 mcserver: STOP: INFO: LinuxGSM is already stopped
+Aug 11 05:03:58.331 mcserver: STOP: INFO: LinuxGSM version: v26.2.0
+Aug 11 05:03:58.333 mcserver: STOP: PASS: core_exit.sh exiting with code: 0
+Aug 11 05:04:03.242 mcserver: CORE: PASS: Using cached IP as public IP address
+Aug 11 05:04:04.884 mcserver: START: PASS: Using cached IP as public IP address
+Aug 11 05:04:05.999 mcserver: START: PASS: Using cached IP as public IP address
+Aug 11 05:04:06.638 mcserver: START: INFO: Rotating log files

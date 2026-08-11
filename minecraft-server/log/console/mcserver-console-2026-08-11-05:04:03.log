@@ -1,0 +1,54 @@
+Starting net.minecraft.server.Main
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/workspaces/Minecra/minecraft-server/serverfiles/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:/workspaces/Minecra/minecraft-server/serverfiles/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar)
+WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[04:50:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:50:43] [ServerMain/INFO]: Loaded 1585 recipes
+[04:50:43] [ServerMain/INFO]: Loaded 1688 advancements
+[04:50:43] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:50:43] [Server thread/INFO]: Loading properties
+[04:50:43] [Server thread/INFO]: Default game type: SURVIVAL
+[04:50:43] [Server thread/INFO]: Generating keypair
+[04:50:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:50:43] [Server thread/INFO]: Preparing level "world"
+[04:50:43] [Server thread/INFO]: Loading 0 persistent chunks...
+[04:50:43] [Server thread/INFO]: Preparing spawn area: 100%
+[04:50:43] [Server thread/INFO]: Time elapsed: 14 ms
+[04:50:43] [Server thread/INFO]: Done (0.262s)! For help, type "help"
+[04:50:43] [Server thread/INFO]: Starting GS4 status listener
+[04:50:43] [Server thread/INFO]: Thread Query Listener started
+[04:50:43] [Query Listener #1/INFO]: Query running on 0.0.0.0:25565
+[04:50:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:50:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:50:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:50:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:50:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:50:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:50:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:51:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:53:45] [Server thread/INFO]: iGalax (/127.78.230.203:56121) lost connection: Disconnected
+[04:53:50] [Server thread/INFO]: iGalax (/127.78.230.203:53961) lost connection: Disconnected
+[04:54:09] [User Authenticator #1/INFO]: UUID of player iGalax is 8850923f-8a60-4791-9246-885143dfbf7e
+[04:54:10] [Server thread/INFO]: iGalax[/127.78.230.203:43591] logged in with entity id 96 at (13.013650902507848, 96.0, 0.23876727268418382)
+[04:54:10] [Server thread/INFO]: iGalax joined the game
+[04:54:13] [Server thread/INFO]: iGalax lost connection: Disconnected
+[04:54:13] [Server thread/INFO]: iGalax left the game
+stop
+[04:54:35] [Server thread/INFO]: Stopping the server
+[04:54:35] [Server thread/INFO]: Stopping server
+[04:54:35] [Server thread/INFO]: Saving players
+[04:54:35] [Server thread/INFO]: Saving worlds
+[04:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:54:35] [Server thread/INFO]: Thread Query Listener stopped
